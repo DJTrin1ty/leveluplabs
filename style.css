@@ -67,6 +67,9 @@ table {
     float: left;
     margin-left: 20px;
     margin-top: 15px;
+    background-color: white;
+    border-radius: 48%;
+    border: aqua 1px solid;
 }
 
 .navbar a {
