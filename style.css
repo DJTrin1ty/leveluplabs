@@ -1,0 +1,330 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*NAVBAR*/
+
+.nav-wrapper {
+    background-color: #2F2F2F;
+    overflow: hidden;
+    border-bottom: 1px solid #06FFFF;
+    height: 70px;
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+.lul-logo {
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 30px 30px 30px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: aqua;
+}
+
+
+
+/*JUMBOTRON*/
+
+.jumbotron-img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.jumbotron-text {
+    background-image: url("assets/backgroundimg.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: aqua;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 45px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.button-apply {
+    background-color:#0070ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    width: 267px;
+    height: 55px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+
+
+/*CONTENTS*/
+
+.bc-intro {
+    display: flex;
+    justify-content: center;
+}
+
+.section1 {
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 50px;
+    font-size: 20px;
+    width: 990px;
+    height: 230px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 170px;
+}
+
+.black-header {
+    text-align: center;
+    background-color: black;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    letter-spacing: 12px;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0 25px;
+}
+
+.bc-points {
+    display: flex;
+    width:60%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.bc-points2 {
+    display: flex;
+    width:60%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.bc-points3 {
+    display: flex;
+    width:60%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 220px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.points-img {
+    border-radius: 50%;
+    border: black solid 3px;
+    height: 169px;
+    width: 169px;
+    -webkit-filter: drop-shadow(5px 4px 4px grey);
+    float: left;
+    margin-right: 35px;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #006AF5;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #A4A4A4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.liner-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.liner {
+    background-color: black;
+    background: linear-gradient(-90deg,white, black, white);
+    height: 3px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: -25px;    
+    z-index: -1;
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    text-shadow: 3px 3px 2px grey;
+    padding: 40px 0 20px 0;
+    text-align: center;
+}
+
+.about-us {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+
+.about-img {
+    border-radius: 50%;
+    border: pink 25px solid;
+    margin-left: 80px;
+}
+
+.about-desc {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 40px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-bottom: 240px;
+}
+
+.about-card {
+    margin: 20px;
+}
+
+.our-guarantee {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.guarantee-desc1 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 40px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-top: 110px;
+}
+
+.guarantee-desc2 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 40px;
+    font-size: 18px;
+    margin-bottom: 240px;
+    margin-top: 50px;
+}
+
+.blue-boxes {
+    display: flex;
+}
+
+.blue-box {
+    background-color: #0067EB;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+    width: 100%;
+    line-height: 70px;
+    text-align: center;
+    box-shadow: 3px 3px 3px grey;
+}
