@@ -378,8 +378,7 @@ li:nth-child(odd) {background-color: #dcebff}
     letter-spacing: 12px;
     line-height: 50px;
     display: inline-block;
-    padding: 0 25px;
-    width: 15%;
+    padding: 0 35px;
 }
 
 .overview-desc {
